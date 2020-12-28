@@ -149,7 +149,7 @@ int main(int argc, const char *argv[]) {
 
     /*
      NOTE:
-     sem_init has been depreciated in macOS High Sierra (my development platform). Therefore, I opted to use sem_open, which is equivalent, and available, in all POSIX-compliant systems.
+     sem_init has been deprecated in macOS High Sierra (my development platform). Therefore, I opted to use sem_open, which is equivalent, and available, in all POSIX-compliant systems.
 
      */
 
@@ -193,7 +193,7 @@ int main(int argc, const char *argv[]) {
 
     /*
      NOTE:
-     sem_destroy has been depreciated in macOS High Sierra (my development platform). Therefore, I opted to use sem_close, which is equivalent, and available, in all POSIX-compliant systems.
+     sem_destroy has been deprecated in macOS High Sierra (my development platform). Therefore, I opted to use sem_close, which is equivalent, and available, in all POSIX-compliant systems.
 
      */
 
